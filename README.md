@@ -96,3 +96,7 @@ Of course the list presented here might be incomplete so feel free to reach out 
 [Octopus](https://github.com/richardingham/octopus)
 
 See [LABS](https://aces.onlinelibrary.wiley.com/doi/full/10.1002/asia.202300380) for automated electrochemical synthesis.
+
+**Tools for general physics/electronics automation**
+
+[pyLabLib](https://github.com/AlexShkarin/pyLabLib/tree/main?tab=readme-ov-file)
