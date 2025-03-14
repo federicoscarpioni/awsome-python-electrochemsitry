@@ -91,4 +91,8 @@ Of course the list presented here might be incomplete so feel free to reach out 
 
 **Tools for general chemistry automation**
 
+[flowchem](https://github.com/cambiegroup/flowchem)
+
+[Octopus](https://github.com/richardingham/octopus)
+
 See [LABS](https://aces.onlinelibrary.wiley.com/doi/full/10.1002/asia.202300380) for automated electrochemical synthesis.
