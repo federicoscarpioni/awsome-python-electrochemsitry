@@ -3,7 +3,8 @@ A collection of packages for experimental and theoretical electrchemistry.
 
 This repository is inspired by a [peer rewied paper](https://iopscience.iop.org/article/10.1149/2754-2734/acff0b) on the topic of Python tools for electrochemistry. The landscape of Python packages evolves continiusly with modification, forks and creation of new, and a peer-revied paper doens't allow to keep track of all.
 
-Many electrochemist build their own software to perform, analyse or simulate experiments and in many cases this require an ingent effort, especially considering that not everyone posses the software engeeniring skils required to build and mantain a package. PyBaMM is an opposite exemple, where community efforts and dedication created a brilliant software that is gaining much popularity. I hope the same success will come to other packages that cover different part of the electrochemistr workflow. To start off, one need to know which package are currently available and are activelly maintined and therefore I put together the following list. I might have missed some packages or made some errors, so please feel free to contact me and propose suggestions.
+Many electrochemist build their own software to perform, analyse or simulate experiments and in many cases this require an ingent effort, especially considering that not everyone posses the software engeeniring skils required to build and mantain a package. PyBaMM is an opposite exemple, where community efforts and dedication created a brilliant software that is gaining much popularity. I hope the same success will come to other packages that cover different part of the electrochemistr workflow. To start off, one need to know which package are currently available and are activelly maintined and therefore I put together the following list. I might have missed some packages or made some errors, so please feel free to contact me and propose suggestions. The candidates for this lists are packages with documenation, still in development or at least maintaned.
+
 Happy browsing! :)
 
 ## Collection of packages by topic
@@ -57,6 +58,8 @@ Happy browsing! :)
 **Battery data handling**
 
 [PyProBE](https://github.com/ImperialCollegeLondon/PyProBE?tab=readme-ov-file)
+
+[cellpy](https://github.com/jepegit/cellpy)
 
 **Battery data analysis**
 
