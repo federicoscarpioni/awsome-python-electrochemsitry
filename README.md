@@ -1,4 +1,4 @@
-# python-electrochemsitry-collections
+# python-electrochemsitry-collection
 A collection of packages for experimental and theoretical electrchemistry.
 This repository is inspired by a [peer rewied paper](https://iopscience.iop.org/article/10.1149/2754-2734/acff0b) on the topic of Python tools for electrochemistry. I believe is now impossible to perform scientific work without automation or numerical calculations but still the electrochemistry community mainly survives on ad-hoc self-made software which is not always accessible. Python packages for the entire workflow in electrochemistry are present and the list grows quikly. A repository is then much more effective to keep track of them.
 
