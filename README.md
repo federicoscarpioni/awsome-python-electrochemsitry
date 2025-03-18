@@ -1,9 +1,9 @@
 # python-electrochemsitry-collection
 A collection of packages for experimental and theoretical electrchemistry.
-This repository is inspired by a [peer rewied paper](https://iopscience.iop.org/article/10.1149/2754-2734/acff0b) on the topic of Python tools for electrochemistry. I believe is now impossible to perform scientific work without automation or numerical calculations but still the electrochemistry community mainly survives on ad-hoc self-made software which is not always accessible. Python packages for the entire workflow in electrochemistry are present and the list grows quikly. A repository is then much more effective to keep track of them.
+This repository is inspired by a [peer rewied paper](https://iopscience.iop.org/article/10.1149/2754-2734/acff0b) on the topic of Python tools for electrochemistry. The landscape of Python packages evolves continiusly with modification, forks and creation of new, and a peer-revied paper doens't allow to keep track of all.
 
-Of course the list presented here might be incomplete so feel free to reach out and I'll add your suggestions.
-
+Many electrochemist build their own software to perform, analyse or simulate experiments and in many cases this require an ingent effort, especially considering that not everyone posses the software engeeniring skils required to build and mantain a package. PyBaMM is an opposite exemple, where community efforts and dedication created a brilliant software that is gaining much popularity. I hope the same success will come to other packages that cover different part of the electrochemistr workflow. To start off, one need to know which package are currently available and are activelly maintined and therefore I put together the following list. I might have missed some packages or made some errors, so please feel free to contact me and propose suggestions.
+Happy browsing! :)
 
 ## Collection of packages by topic
 
@@ -57,11 +57,18 @@ Of course the list presented here might be incomplete so feel free to reach out 
 
 **Battery data analysis**
 
+[PyBOP](https://github.com/pybop-team/PyBOP)
+
 [Arbin Electrochemical Tools](https://github.com/vince-wu/electrochem)
 
 [BatteryRateCap](https://github.com/BatteryDesign/BatteryRateCap)
 
+**Impedance analysis, state prediction and embedded calculation**
+
+[EIS Data Analytics](https://git.rwth-aachen.de/isea/eis_data_analytics)
+
 **Aging prediction**
+
 
 [Battery Evaluation and Early Prediction (BEEP)](https://github.com/tri-amdd/beep)
 
