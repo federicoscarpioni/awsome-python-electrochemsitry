@@ -37,6 +37,8 @@ Happy browsing! :)
 
 [pyDRTtools](https://github.com/ciuccislab/pyDRTtools)
 
+[PyBaMM EIS](https://github.com/pybamm-team/pybamm-eis)
+
 **Cyclic voltammetry and impendace data analysis**
 
 [pyEIA](https://github.com/thomastu/pyEIA)
