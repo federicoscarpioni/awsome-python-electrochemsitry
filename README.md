@@ -1,5 +1,6 @@
-# python-electrochemsitry-collection
-A collection of packages for experimental and theoretical electrchemistry.
+# Awesome Python Electrochemistry [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+
+A collection of packages for experimental and theoretical electrchemistry, inspired by [Awesome Python Chemistry](https://github.com/lmmentel/awesome-python-chemistry)
 
 This repository is inspired by a [peer rewied paper](https://iopscience.iop.org/article/10.1149/2754-2734/acff0b) on the topic of Python tools for electrochemistry. The landscape of Python packages evolves continiusly with modification, forks and creation of new, and a peer-revied paper doens't allow to keep track of all.
 
@@ -52,6 +53,8 @@ Happy browsing! :)
 [Simulations of Cyclic Voltammetry for a Quasireversible System](https://github.com/tristanCB/quasi-reversible-cyclic-voltametry)
 
 [RedoxPySolid](https://github.com/Aleksei-Marianov/RedoxPySolid)
+
+[ElectroKitty](https://github.com/RedrumKid/ElectroKitty/tree/master)
 
 ### Battery specific
 
