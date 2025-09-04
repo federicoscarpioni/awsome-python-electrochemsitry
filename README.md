@@ -29,7 +29,8 @@ Happy browsing! :)
 [ixdat](https://github.com/ixdat/ixdat)
 
 [SciBatt](https://github.com/amundmr/SciBatt)
-
+### Electroanalysis 
+[Polarographica](https://github.com/Polarographica/Polarographica_program)
 **Electrochemical Impedance Spectroscopy data analysis and simulation**
 
 [pyimpspec](https://github.com/vyrjana/pyimpspec?tab=readme-ov-file) and its GUI [DearEIS](https://github.com/vyrjana/DearEIS)
@@ -41,6 +42,8 @@ Happy browsing! :)
 [pyDRTtools](https://github.com/ciuccislab/pyDRTtools)
 
 [PyBaMM EIS](https://github.com/pybamm-team/pybamm-eis)
+
+[PyDRT](https://github.com/robertleonhardt/PyDRT?tab=readme-ov-file)
 
 **Cyclic voltammetry and impendace data analysis**
 
