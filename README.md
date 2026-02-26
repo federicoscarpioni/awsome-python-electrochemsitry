@@ -45,6 +45,8 @@ Happy browsing! :)
 
 [PyDRT](https://github.com/robertleonhardt/PyDRT?tab=readme-ov-file)
 
+[ISEA/EIS Data Analytics] (https://git.rwth-aachen.de/isea/eis_data_analytics)
+
 **Cyclic voltammetry and impendace data analysis**
 
 [pyEIA](https://github.com/thomastu/pyEIA)
