@@ -81,8 +81,11 @@ Happy browsing! :)
 
 [EIS Data Analytics](https://git.rwth-aachen.de/isea/eis_data_analytics)
 
-**Aging prediction**
+**Intermitted current analysis**
 
+[pyICI](https://github.com/Joe-Arroyo/pyICI)
+
+**Aging prediction**
 
 [Battery Evaluation and Early Prediction (BEEP)](https://github.com/tri-amdd/beep)
 
