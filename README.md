@@ -1,126 +1,138 @@
 # Awesome Python Electrochemistry [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-A collection of packages for experimental and theoretical electrchemistry, inspired by [Awesome Python Chemistry](https://github.com/lmmentel/awesome-python-chemistry)
+A curated list of awesome Python packages for experimental and theoretical electrochemistry.
 
-This repository is inspired by a [peer rewied paper](https://iopscience.iop.org/article/10.1149/2754-2734/acff0b) on the topic of Python tools for electrochemistry. The landscape of Python packages evolves continiusly with modification, forks and creation of new, and a peer-revied paper doens't allow to keep track of all.
+Inspired by [awesome-python](https://awesome-python.com) and [awesome-python-chemistry](https://github.com/lmmentel/awesome-python-chemistry).
 
-Many electrochemist build their own software to perform, analyse or simulate experiments and in many cases this require an ingent effort, especially considering that not everyone posses the software engeeniring skils required to build and mantain a package. PyBaMM is an opposite exemple, where community efforts and dedication created a brilliant software that is gaining much popularity. I hope the same success will come to other packages that cover different part of the electrochemistr workflow. To start off, one need to know which package are currently available and are activelly maintined and therefore I put together the following list. I might have missed some packages or made some errors, so please feel free to contact me and propose suggestions. The candidates for this lists are packages with documenation, still in development or at least maintaned.
+> The landscape of Python packages for electrochemistry evolves continuously. This list focuses on packages that are documented and actively maintained or developed. Contributions and suggestions are welcome!
 
-Happy browsing! :)
+## Table of Contents
 
-## Collection of packages by topic
+- [Instrumentation and Data Acquisition](#instrumentation-and-data-acquisition)
+- [Data Conversion from Proprietary Formats](#data-conversion-from-proprietary-formats)
+- [Data Handling and Visualization](#data-handling-and-visualization)
+- [Electroanalysis](#electroanalysis)
+- [Electrochemical Impedance Spectroscopy](#electrochemical-impedance-spectroscopy)
+- [Cyclic Voltammetry](#cyclic-voltammetry)
+- [Battery Technology](#battery-technology)
+- [Fuel Cells](#fuel-cells)
+- [Laboratory Automation](#laboratory-automation)
+- [See Also](#see-also)
 
-**Controlling potentiostats or instrumentation**
+---
 
-[pyeclab](https://github.com/federicoscarpioni/pyeclab)
+## Instrumentation and Data Acquisition
 
-[Easy Biologic](https://github.com/bicarlsen/easy-biologic)
+*Packages for controlling potentiostats and other electrochemical instrumentation.*
 
-[hardpotato](https://github.com/jrlLAB/hardpotato)
+- [pyeclab](https://github.com/federicoscarpioni/pyeclab) - Python library for controlling Bio-Logic potentiostats at channel level.
+- [Easy Biologic](https://github.com/bicarlsen/easy-biologic) - Python interface for communicating with Bio-Logic potentiostat at device level.
+- [hardpotato](https://github.com/jrlLAB/hardpotato) - Unified control library for potentiostats from multiple manufacturers.
 
-**Data conversion from proprietary format**
+## Data Conversion from Proprietary Formats
 
-[galvani](https://github.com/echemdata/galvani)
+*Packages for reading and converting proprietary instrument data files into open formats.*
 
-[eclabfiles](https://github.com/vetschn/eclabfiles)
+- [galvani](https://github.com/echemdata/galvani) - Reads electrochemical data files from multiple potentiostat manifacturers into pandas DataFrames.
+- [eclabfiles](https://github.com/vetschn/eclabfiles) - Parser for Bio-Logic EC-Lab binary (.mpr) and text (.mpt) data files.
 
-**Data handling and visualization**
+## Data Handling and Visualization
 
-[ixdat](https://github.com/ixdat/ixdat)
+*Packages for loading, processing and visualising electrochemical datasets.*
 
-[SciBatt](https://github.com/amundmr/SciBatt)
-### Electroanalysis 
-[Polarographica](https://github.com/Polarographica/Polarographica_program)
-**Electrochemical Impedance Spectroscopy data analysis and simulation**
+- [ixdat](https://github.com/ixdat/ixdat) - Integrated experimental data analysis toolkit with a focus on in-situ and operando electrochemistry.
+- [SciBatt](https://github.com/amundmr/SciBatt) - Battery data analysis and visualisation toolkit.
 
-[pyimpspec](https://github.com/vyrjana/pyimpspec?tab=readme-ov-file) and its GUI [DearEIS](https://github.com/vyrjana/DearEIS)
+## Electrochemical Impedance Spectroscopy
 
-[impedance.py](https://github.com/ECSHackWeek/impedance.py)
+*Packages for EIS data acquisition, analysis, equivalent circuit fitting, and DRT calculation.*
 
-[pyEIS](https://github.com/kbknudsen/PyEIS/tree/master)
+- [pyimpspec](https://github.com/vyrjana/pyimpspec?tab=readme-ov-file) - EIS data analysis with equivalent circuit fitting, DRT calculation, and validation tools.
+- [DearEIS](https://github.com/vyrjana/DearEIS) - Graphical user interface for EIS analysis built on pyimpspec.
+- [impedance.py](https://github.com/ECSHackWeek/impedance.py) - Simple and extensible library for fitting EIS data with equivalent circuit models.
+- [pyEIS](https://github.com/kbknudsen/PyEIS/tree/master) - EIS data analysis and equivalent circuit fitting toolkit.
+- [pyDRTtools](https://github.com/ciuccislab/pyDRTtools) - Distribution of relaxation times (DRT) calculation from EIS spectra.
+- [PyDRT](https://github.com/robertleonhardt/PyDRT?tab=readme-ov-file) - DRT calculation and analysis for electrochemical impedance data.
+- [PyBaMM EIS](https://github.com/pybamm-team/pybamm-eis) - EIS simulation integrated within the PyBaMM battery modelling framework.
+- [ISEA/EIS Data Analytics](https://git.rwth-aachen.de/isea/eis_data_analytics) - EIS data analysis and state estimation tools developed at RWTH Aachen University.
 
-[pyDRTtools](https://github.com/ciuccislab/pyDRTtools)
+## Cyclic Voltammetry
 
-[PyBaMM EIS](https://github.com/pybamm-team/pybamm-eis)
+*Packages for the analysis and simulation of cyclic voltammetry experiments.*
 
-[PyDRT](https://github.com/robertleonhardt/PyDRT?tab=readme-ov-file)
+### Analysis
 
-[ISEA/EIS Data Analytics] (https://git.rwth-aachen.de/isea/eis_data_analytics)
+- [pyEIA](https://github.com/thomastu/pyEIA) - Analysis tools for cyclic voltammetry and impedance data.
+- [Polarographica](https://github.com/Polarographica/Polarographica_program) - Simulation and analysis software for polarographic and voltammetric experiments.
 
-**Cyclic voltammetry and impendace data analysis**
+### Simulation
 
-[pyEIA](https://github.com/thomastu/pyEIA)
+- [Python Cyclic Voltammetry Simulation Software](https://github.com/kiranvad/pyMECSim?tab=readme-ov-file) - Cyclic voltammetry simulation for mechanistic studies (wraps MECSim).
+- [Simulations of Cyclic Voltammetry for a Quasireversible System](https://github.com/tristanCB/quasi-reversible-cyclic-voltametry) - Simulation of cyclic voltammetry for quasireversible electrode kinetics.
+- [RedoxPySolid](https://github.com/Aleksei-Marianov/RedoxPySolid) - Simulation of solid-state redox reactions via cyclic voltammetry.
+- [ElectroKitty](https://github.com/RedrumKid/ElectroKitty/tree/master) - Cyclic voltammetry simulation and experimental data fitting.
 
-**Cyclic voltammetry simulation**
+## Batteries
 
-[Python Cyclic Voltammetry Simulation Software](https://github.com/kiranvad/pyMECSim?tab=readme-ov-file)
+*Packages for battery data handling, analysis, state estimation and simulation.*
 
-[Simulations of Cyclic Voltammetry for a Quasireversible System](https://github.com/tristanCB/quasi-reversible-cyclic-voltametry)
+### Data Handling
 
-[RedoxPySolid](https://github.com/Aleksei-Marianov/RedoxPySolid)
+- [PyProBE](https://github.com/ImperialCollegeLondon/PyProBE?tab=readme-ov-file) - Battery testing data handling and analysis framework developed at Imperial College London.
+- [cellpy](https://github.com/jepegit/cellpy) - Battery cell data processing, analysis and comparison framework.
 
-[ElectroKitty](https://github.com/RedrumKid/ElectroKitty/tree/master)
+### Data Analysis
 
-### Battery specific
+- [PyBOP](https://github.com/pybop-team/PyBOP) - Battery optimisation package for parameter identification and model selection.
+- [Arbin Electrochemical Tools](https://github.com/vince-wu/electrochem) - Analysis tools for data produced by Arbin battery cyclers.
+- [BatteryRateCap](https://github.com/BatteryDesign/BatteryRateCap) - Rate capability analysis and modelling for battery cells.
+- [pyICI](https://github.com/Joe-Arroyo/pyICI) - Intermittent current interruption (ICI) analysis for battery diagnostics.
 
-**Battery data handling**
+### Impedance Analysis and State Estimation
 
-[PyProBE](https://github.com/ImperialCollegeLondon/PyProBE?tab=readme-ov-file)
+- [ISEA/EIS Data Analytics](https://git.rwth-aachen.de/isea/eis_data_analytics) - EIS-based state-of-health and state-of-charge estimation for battery systems.
 
-[cellpy](https://github.com/jepegit/cellpy)
+### Aging and Lifetime Prediction
 
-**Battery data analysis**
+- [Battery Evaluation and Early Prediction (BEEP)](https://github.com/tri-amdd/beep) - Platform for battery evaluation, feature extraction and early cycle-life prediction.
 
-[PyBOP](https://github.com/pybop-team/PyBOP)
+### Simulation
 
-[Arbin Electrochemical Tools](https://github.com/vince-wu/electrochem)
+- [MPET](https://github.com/TRI-AMDD/mpet) - Multi-particle electrode theory simulation for porous battery electrodes.
+- [PyBaMM](https://github.com/pybamm-team/PyBaMM) - Fast and flexible battery mathematical modelling framework.
+- [liionpack](https://github.com/pybamm-team/liionpack) - Lithium-ion battery pack simulation built on top of PyBaMM.
 
-[BatteryRateCap](https://github.com/BatteryDesign/BatteryRateCap)
+## Fuel Cells
 
-**Impedance analysis, state prediction and embedded calculation**
+*Packages for the simulation and analysis of fuel cell systems.*
 
-[EIS Data Analytics](https://git.rwth-aachen.de/isea/eis_data_analytics)
+### PEM Fuel Cells
 
-**Intermitted current analysis**
+- [opem](https://github.com/ECSIM/opem) - Open source simulation tool for proton exchange membrane (PEM) fuel cells.
+- [AlphaPEM](https://github.com/gassraphael/AlphaPEM) - Physics-based dynamic model for PEM fuel cells.
 
-[pyICI](https://github.com/Joe-Arroyo/pyICI)
+### SOFC
 
-**Aging prediction**
+- [NGFC-Lib](https://github.com/NGFC-Lib/NGFC-Lib) - Simulation and analysis tools for natural gas fuel cells (SOFC).
 
-[Battery Evaluation and Early Prediction (BEEP)](https://github.com/tri-amdd/beep)
+## Laboratory Automation
 
-**Porous electrode simulation**
+*Packages for automating electrochemical experiments and laboratory workflows.*
 
-[MPET](https://github.com/TRI-AMDD/mpet)
+### Chemistry and Flow Automation
 
-**Battery cycling simulation**
+- [flowchem](https://github.com/cambiegroup/flowchem) - Framework for automated chemistry workflows, with a focus on flow chemistry and electrochemistry.
+- [Octopus](https://github.com/richardingham/octopus) - Laboratory automation framework for flow chemistry experiments.
 
-[PyBaMM](https://github.com/pybamm-team/PyBaMM)
+See [LABS](https://aces.onlinelibrary.wiley.com/doi/full/10.1002/asia.202300380) for a review of Python tools for automated electrochemical synthesis.
 
-**Battery pack cycling simulation**
+### Instrument Control
 
-[liionpack](https://github.com/pybamm-team/liionpack)
+- [pyLabLib](https://github.com/AlexShkarin/pyLabLib/tree/main?tab=readme-ov-file) - Python library for controlling a wide range of laboratory instruments.
 
-### Fuel cells specific
+---
 
-**PEM**
+## See Also
 
-[opem](https://github.com/ECSIM/opem)
-
-[AlphaPEM](https://github.com/gassraphael/AlphaPEM)
-
-**SOFC**
-
-[NGFC-Lib](https://github.com/NGFC-Lib/NGFC-Lib)
-
-**Tools for general chemistry automation**
-
-[flowchem](https://github.com/cambiegroup/flowchem)
-
-[Octopus](https://github.com/richardingham/octopus)
-
-See [LABS](https://aces.onlinelibrary.wiley.com/doi/full/10.1002/asia.202300380) for automated electrochemical synthesis.
-
-**Tools for general physics/electronics automation**
-
-[pyLabLib](https://github.com/AlexShkarin/pyLabLib/tree/main?tab=readme-ov-file)
+- [awesome-python-chemistry](https://github.com/lmmentel/awesome-python-chemistry) - A broader list of Python packages for chemistry, including quantum chemistry, cheminformatics, and molecular simulation.
+- [Python Tools for Electrochemistry (IOP, 2023)](https://iopscience.iop.org/article/10.1149/2754-2734/acff0b) - Peer-reviewed overview of the Python electrochemistry software ecosystem that inspired this list.
