@@ -87,6 +87,7 @@ Inspired by [awesome-python](https://awesome-python.com) and [awesome-python-che
 - [Arbin Electrochemical Tools](https://github.com/vince-wu/electrochem) - Analysis tools for data produced by Arbin battery cyclers.
 - [BatteryRateCap](https://github.com/BatteryDesign/BatteryRateCap) - Rate capability analysis and modelling for battery cells.
 - [pyICI](https://github.com/Joe-Arroyo/pyICI) - Intermittent current interruption (ICI) analysis for battery diagnostics.
+- [GalvAnalyze](https://github.com/LukasRier/GalvAnalyze) -  Analysis galvanostatic charge-discharge cycling of batteries.
 
 ### Impedance Analysis and State Estimation
 
