@@ -54,7 +54,7 @@ Inspired by [awesome-python](https://awesome-python.com) and [awesome-python-che
 - [pyDRTtools](https://github.com/ciuccislab/pyDRTtools) - Distribution of relaxation times (DRT) calculation from EIS spectra.
 - [PyDRT](https://github.com/robertleonhardt/PyDRT?tab=readme-ov-file) - DRT calculation and analysis for electrochemical impedance data.
 - [EISFittinpython](https://github.com/Sheyigold/EISFitpython) - Fit multiple impedance spectra at once, preserving inter-parameter relationships and propagating uncertainties.
-- [ISEA/EIS Data Analytics](https://git.rwth-aachen.de/isea/eis_data_analytics) - EIS data analysis and state estimation tools developed at RWTH Aachen University.
+- [ISEA/EIS Data Analytics](https://git.rwth-aachen.de/isea/eis_data_analytics) - EIS data analysis and state estimation tools developed.
 
 ## Cyclic Voltammetry
 
