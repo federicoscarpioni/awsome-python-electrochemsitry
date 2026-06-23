@@ -55,6 +55,7 @@ Inspired by [awesome-python](https://awesome-python.com) and [awesome-python-che
 - [PyDRT](https://github.com/robertleonhardt/PyDRT?tab=readme-ov-file) - DRT calculation and analysis for electrochemical impedance data.
 - [EISFittinpython](https://github.com/Sheyigold/EISFitpython) - Fit multiple impedance spectra at once, preserving inter-parameter relationships and propagating uncertainties.
 - [ISEA/EIS Data Analytics](https://git.rwth-aachen.de/isea/eis_data_analytics) - EIS data analysis and state estimation tools developed.
+- [ADAPT-ECM](https://github.com/Bosahobi/ADAPT-ECM) - DRT-guided equivalent-circuit modeling software for EIS.
 
 ## Cyclic Voltammetry
 
