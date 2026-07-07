@@ -81,6 +81,7 @@ Inspired by [awesome-python](https://awesome-python.com) and [awesome-python-che
 
 - [PyProBE](https://github.com/ImperialCollegeLondon/PyProBE?tab=readme-ov-file) - Battery testing data handling and analysis framework developed at Imperial College London.
 - [cellpy](https://github.com/jepegit/cellpy) - Battery cell data processing, analysis and comparison framework.
+- [Battery Data Toolkit](https://github.com/ROVI-org/battery-data-toolkit) - Provides standardized format for storaing and analyze battery data, based on the PyData ecosystem.
 
 ### Data Analysis
 
