@@ -35,6 +35,7 @@ Inspired by [awesome-python](https://awesome-python.com) and [awesome-python-che
 
 - [galvani](https://github.com/echemdata/galvani) - Reads electrochemical data files from multiple potentiostat manifacturers into pandas DataFrames.
 - [eclabfiles](https://github.com/vetschn/eclabfiles) - Parser for Bio-Logic EC-Lab binary (.mpr) and text (.mpt) data files.
+- [Battery Feature Lab](https://github.com/shiyunliu-battery/Battery-Feature-Lab) - Turns preprocessed battery time-series measurements into compact, machine-readable analysis with traceable evidence.
 
 ## Data Handling and Visualization
 
