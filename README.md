@@ -99,6 +99,7 @@ Inspired by [awesome-python](https://awesome-python.com) and [awesome-python-che
 ### Aging and Lifetime Prediction
 
 - [Battery Evaluation and Early Prediction (BEEP)](https://github.com/tri-amdd/beep) - Platform for battery evaluation, feature extraction and early cycle-life prediction.
+- [Battery AgeiNg ANalysis and EStimation (BANANES)](https://gitlab.com/dattes/bananes) - A collection of tools to get ageing models from experiments.
 
 ### Simulation
 
