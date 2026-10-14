@@ -57,6 +57,7 @@ Inspired by [awesome-python](https://awesome-python.com) and [awesome-python-che
 - [EISFittinpython](https://github.com/Sheyigold/EISFitpython) - Fit multiple impedance spectra at once, preserving inter-parameter relationships and propagating uncertainties.
 - [ISEA/EIS Data Analytics](https://git.rwth-aachen.de/isea/eis_data_analytics) - EIS data analysis and state estimation tools developed.
 - [ADAPT-ECM](https://github.com/Bosahobi/ADAPT-ECM) - DRT-guided equivalent-circuit modeling software for EIS.
+- [BatteryDEV](https://github.com/BatteryDEV/AutoECM) - Machine learning-based classification of EIS
 
 ## Cyclic Voltammetry
 
