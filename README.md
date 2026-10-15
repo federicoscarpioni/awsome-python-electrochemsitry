@@ -74,6 +74,7 @@ Inspired by [awesome-python](https://awesome-python.com) and [awesome-python-che
 - [Simulations of Cyclic Voltammetry for a Quasireversible System](https://github.com/tristanCB/quasi-reversible-cyclic-voltametry) - Simulation of cyclic voltammetry for quasireversible electrode kinetics.
 - [RedoxPySolid](https://github.com/Aleksei-Marianov/RedoxPySolid) - Simulation of solid-state redox reactions via cyclic voltammetry.
 - [ElectroKitty](https://github.com/RedrumKid/ElectroKitty/tree/master) - Cyclic voltammetry simulation and experimental data fitting.
+- [Soft Potato](https://github.com/oliverrdz/softpotato) - Electrochemical simulation with diffusion and analysis toolkit.
 
 ## Batteries
 
